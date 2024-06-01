@@ -8,5 +8,5 @@ namespace UnitTest
 			if (digit < 1) return "Pikachu";
 			return "Zero";
 		}
+	}
 }
-
