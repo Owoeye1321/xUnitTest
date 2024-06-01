@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{BA28335B-AAE2-48CA-BE43-03AC9E239029}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTest/Test/WorldDumbestFunctionTest.cs">
+    <Files>
+      <File FileName="UnitTest/Program.cs" Line="4" Column="1" />
+      <File FileName="UnitTest/WorldDumbestUnitTest.cs" Line="6" Column="36" />
+      <File FileName="UnitTest/Test/WorldDumbestFunctionTest.cs" Line="8" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UnitTest" expanded="True">
+            <Node name="UnitTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UnitTest PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
