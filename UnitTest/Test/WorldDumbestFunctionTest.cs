@@ -18,7 +18,7 @@ namespace UnitTest.Test
 				}
 				else
 				{
-					Console.WriteLine("Failed: Not Match");
+					Console.WriteLine("Failed:  Not Match");
 				}
 				
 			}catch(Exception ex)
