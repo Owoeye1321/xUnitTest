@@ -1,25 +1,32 @@
 ﻿<Properties StartupConfiguration="{BA28335B-AAE2-48CA-BE43-03AC9E239029}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.NetworkUtility FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>NetworkUtility/NetworkUtility.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.UnitTest PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTest/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetworkUtilityTest/PingTest/NetworkServiceTest.cs">
     <Files>
-      <File FileName="UnitTest/Program.cs" Line="6" Column="79" />
-      <File FileName="UnitTest/Test/WorldDumbestFunctionTest.cs" Line="6" Column="75" />
+      <File FileName="UnitTest/Program.cs" Line="7" Column="1" />
+      <File FileName="UnitTest/Test/WorldDumbestFunctionTest.cs" Line="8" Column="18" />
       <File FileName="UnitTest/WorldDumbestFunction.cs" Line="11" Column="3" />
+      <File FileName="NetworkUtility/Program.cs" Line="1" Column="1" />
+      <File FileName="NetworkUtilityTest/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="NetworkUtilityTest/PingTest/NetworkServiceTest.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UnitTest">
-            <Node name="UnitTest" expanded="True">
-              <Node name="Test" expanded="True" />
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="UnitTest" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="UnitTest" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
