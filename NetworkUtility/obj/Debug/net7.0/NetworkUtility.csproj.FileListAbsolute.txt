@@ -1,0 +1,14 @@
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/bin/Debug/net7.0/NetworkUtility
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/bin/Debug/net7.0/NetworkUtility.deps.json
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/bin/Debug/net7.0/NetworkUtility.runtimeconfig.json
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/bin/Debug/net7.0/NetworkUtility.dll
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/bin/Debug/net7.0/NetworkUtility.pdb
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/Debug/net7.0/NetworkUtility.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/Debug/net7.0/NetworkUtility.AssemblyInfoInputs.cache
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/Debug/net7.0/NetworkUtility.AssemblyInfo.cs
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/Debug/net7.0/NetworkUtility.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/Debug/net7.0/NetworkUtility.dll
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/Debug/net7.0/refint/NetworkUtility.dll
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/Debug/net7.0/NetworkUtility.pdb
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/Debug/net7.0/NetworkUtility.genruntimeconfig.cache
+/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/Debug/net7.0/ref/NetworkUtility.dll
