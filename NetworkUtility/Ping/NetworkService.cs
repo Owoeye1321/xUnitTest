@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.NetworkInformation;
 namespace NetworkUtility.Ping
 {
 	public class NetworkService
@@ -8,6 +9,23 @@ namespace NetworkUtility.Ping
             return "Success: Ping Sent!";
         }
 
+        public int PingTimeout(int a, int b)
+        {
+            return a + b;
+        }
+
+        public DateTime LastPingDate()
+        {
+            return DateTime.Now;
+        }
+        public PingOptions GetPingOption()
+        {
+            return new PingOptions()
+            {
+                DontFragment = true,
+                Ttl = 1
+            };
+        }
     }  
 }
 
