@@ -4,14 +4,14 @@
     "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/NetworkUtilityTest.csproj": {}
   },
   "projects": {
-    "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/NetworkUtilityTest.csproj": {
+    "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/NetworkUtility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/NetworkUtilityTest.csproj",
-        "projectName": "NetworkUtilityTest",
-        "projectPath": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/NetworkUtilityTest.csproj",
+        "projectUniqueName": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/NetworkUtility.csproj",
+        "projectName": "NetworkUtility",
+        "projectPath": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/NetworkUtility.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/obj/",
+        "outputPath": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mac/.nuget/NuGet/NuGet.Config"
@@ -37,7 +37,68 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/NetworkUtilityTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/NetworkUtilityTest.csproj",
+        "projectName": "NetworkUtilityTest",
+        "projectPath": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/NetworkUtilityTest.csproj",
+        "packagesPath": "/Users/mac/.nuget/packages/",
+        "outputPath": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mac/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/NetworkUtility.csproj": {
+                "projectPath": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtility/NetworkUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.7.1, )"

@@ -1,52 +1,42 @@
 ﻿<Properties StartupConfiguration="{BA28335B-AAE2-48CA-BE43-03AC9E239029}|Default">
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.NetworkUtility FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.UnitTest PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTest/Program.cs">
-    <Files>
-      <File FileName="UnitTest/Program.cs" Line="6" Column="79" />
-      <File FileName="UnitTest/Test/WorldDumbestFunctionTest.cs" Line="6" Column="75" />
-      <File FileName="UnitTest/WorldDumbestFunction.cs" Line="11" Column="3" />
-=======
   <MonoDevelop.Ide.ItemProperties.UnitTest PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NetworkUtilityTest/PingTest/NetworkServiceTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NetworkUtility/Ping/NetworkService.cs">
     <Files>
       <File FileName="UnitTest/Program.cs" />
       <File FileName="UnitTest/Test/WorldDumbestFunctionTest.cs" />
       <File FileName="UnitTest/WorldDumbestFunction.cs" />
       <File FileName="NetworkUtility/Program.cs" />
-      <File FileName="NetworkUtilityTest/UnitTest1.cs" />
-      <File FileName="NetworkUtilityTest/PingTest/NetworkServiceTest.cs" Line="8" Column="4" />
->>>>>>> main
+      <File FileName="NetworkUtilityTest/UnitTest1.cs" Line="7" Column="6" />
+      <File FileName="NetworkUtilityTest/PingTest/NetworkServiceTest.cs" Line="12" Column="1" />
+      <File FileName="NetworkUtility/Ping/NetworkService.cs" Line="11" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="UnitTest">
-<<<<<<< HEAD
-            <Node name="UnitTest" expanded="True">
-              <Node name="Test" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+            <Node name="NetworkUtilityTest" expanded="True">
+              <Node name="PingTest" expanded="True" />
             </Node>
-=======
-            <Node name="NetworkUtility" selected="True" />
-            <Node name="NetworkUtilityTest" expanded="True" />
->>>>>>> main
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="UnitTest">
+            <Node name="NetworkUtilityTest" expanded="True">
+              <Node name="NetworkUtilityTest" expanded="True">
+                <Node name="UnitTest1" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-<<<<<<< HEAD
-=======
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
->>>>>>> main
-  <MonoDevelop.Ide.ItemProperties.NetworkUtilityTest FirstBuild="True" />
 </Properties>

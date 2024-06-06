@@ -3,11 +3,12 @@ namespace NetworkUtility.Ping
 {
 	public class NetworkService
 	{
-        public string SendPind()
+        public string SendPing()
         {
-            return "Ping";
+            return "Success: Ping Sent!";
         }
 
-    }
+    }  
 }
 
+ 
