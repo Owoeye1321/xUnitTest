@@ -57,6 +57,15 @@ namespace NetworkUtilityTest.PingTest
 			result.Should().BeBefore(1.January(2030));
 			result.Should().BeAfter(1.January(2024));
         }
+
+		[Fact]
+
+		public void NetworkService_GetPingOption_ReturnPingOption()
+		{
+
+
+		}
+
 	}
 }
 
