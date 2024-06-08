@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.NetworkInformation;
 using FluentAssertions;
 using FluentAssertions.Extensions;
 using NetworkUtility.Ping;
@@ -59,10 +60,24 @@ namespace NetworkUtilityTest.PingTest
         }
 
 		[Fact]
-
-		public void NetworkService_GetPingOption_ReturnPingOption()
+		public void NetworkService_GetPingOptions_ReturnObjects()
 		{
 
+			//Arrange -variables, classes, mocks
+			var expectedResult = new PingOptions()
+			{
+				DontFragment = true,
+				Ttl = 1
+            };
+
+
+			//Act
+			var result = _pingService.GetPingOptions();
+
+            //Assert
+            result.Should().BeOfType<PingOptions>();
+			result.Should().BeEquivalentTo(expectedResult);
+			result.Ttl.Should().Be(1);
 
 		}
 
