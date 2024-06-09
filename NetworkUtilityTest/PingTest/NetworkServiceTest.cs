@@ -81,6 +81,14 @@ namespace NetworkUtilityTest.PingTest
 
 		}
 
-	}
+		[Fact]
+
+		public void NetworkService_GetAllPingOptions_ReturnIEnumerable()
+		{
+
+		}
+
+
+    }
 }
 
