@@ -3,31 +3,37 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.UnitTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="NetworkUtilityTest/PingTest/NetworkServiceTest.cs">
     <Files>
       <File FileName="UnitTest/Program.cs" />
       <File FileName="UnitTest/Test/WorldDumbestFunctionTest.cs" />
       <File FileName="UnitTest/WorldDumbestFunction.cs" />
       <File FileName="NetworkUtility/Program.cs" />
-      <File FileName="NetworkUtilityTest/PingTest/NetworkServiceTest.cs" Line="69" Column="1" />
-      <File FileName="NetworkUtility/Ping/NetworkService.cs" Line="26" Column="24" />
+      <File FileName="NetworkUtilityTest/PingTest/NetworkServiceTest.cs" Line="81" Column="1" />
+      <File FileName="NetworkUtility/Ping/NetworkService.cs" Line="23" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UnitTest">
+          <Node name="UnitTest" expanded="True">
             <Node name="NetworkUtility" expanded="True">
               <Node name="Ping" expanded="True" />
             </Node>
             <Node name="NetworkUtilityTest" expanded="True">
               <Node name="PingTest" expanded="True" />
             </Node>
+            <Node name="UnitTest" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="UnitTest" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UnitTest PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
