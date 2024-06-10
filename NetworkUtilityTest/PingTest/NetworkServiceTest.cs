@@ -81,6 +81,27 @@ namespace NetworkUtilityTest.PingTest
 
 		}
 
-	}
+		[Fact]
+
+		public void NetworkService_GetAllPingOptions_ReturnIEnumerable()
+		{
+            //Arrange - variables, classes, mock
+            var expectedResult = new PingOptions()
+            {
+                DontFragment = true,
+                Ttl = 1
+            };
+
+            //Act
+            var result = _pingService.GetAllPingOptions();
+
+
+			//Assert
+			//result.Should().BeOfType<IEnumerable<PingOptions>>();
+			result.Should().ContainEquivalentOf(expectedResult);
+        }
+
+
+    }
 }
 
