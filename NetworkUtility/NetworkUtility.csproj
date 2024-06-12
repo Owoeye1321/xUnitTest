@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <None Remove="Ping\" />
+    <None Remove="Dns\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ping\" />
+    <Folder Include="Dns\" />
   </ItemGroup>
 </Project>
