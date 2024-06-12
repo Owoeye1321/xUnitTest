@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Net.NetworkInformation;
+using FakeItEasy;
 using FluentAssertions;
 using FluentAssertions.Extensions;
+using NetworkUtility.Dns;
 using NetworkUtility.Ping;
 using Xunit;
 namespace NetworkUtilityTest.PingTest
@@ -9,15 +11,23 @@ namespace NetworkUtilityTest.PingTest
 	public class NetworkServiceTest
 	{
 		private readonly NetworkService _pingService;
+		private readonly IDns _dns;
+		
 		public NetworkServiceTest()
 		{
-            _pingService = new NetworkService();
+            //Dependencies with FakeItEasy
+            _dns = A.Fake<IDns>();
+			
+
+			//Class
+            _pingService = new NetworkService(_dns);
 		}
 		[Fact]
 		public void NetworkService_SendPing_ReturnString()
 		{
-            //Arrange - variables, classes, mocks
-           // var pingService = new NetworkService(); 
+			//Arrange - variables, classes, mocks
+			// var pingService = new NetworkService();
+			A.CallTo(() => _dns.sendDns()).Returns(true);
 
 			//Act
 			var result = _pingService.SendPing();

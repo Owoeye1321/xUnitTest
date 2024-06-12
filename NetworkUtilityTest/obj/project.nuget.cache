@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WMgjOKP+6tsN24U79EtsjyebdBxFWo4vlAzudjT9HjC8JaBbZODhlAYslKWKcBCUp1eSgky+t9YbXqMeiSYR5w==",
+  "dgSpecHash": "4VJjzOt1/5pgMsCh3qnxj3LN/x4wsAWioqgXDoQ19m9SXsImBbZW981aV7RSsbTipGuspnChQ1pwAHJmW6r8LQ==",
   "success": true,
   "projectFilePath": "/Users/mac/Desktop/MyApplications/UnitTest/NetworkUtilityTest/NetworkUtilityTest.csproj",
   "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/mac/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/fakeiteasy/8.2.0/fakeiteasy.8.2.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/fluentassertions/6.12.0/fluentassertions.6.12.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/microsoft.codecoverage/17.7.1/microsoft.codecoverage.17.7.1.nupkg.sha512",
     "/Users/mac/.nuget/packages/microsoft.net.test.sdk/17.7.1/microsoft.net.test.sdk.17.7.1.nupkg.sha512",
@@ -40,6 +42,7 @@
     "/Users/mac/.nuget/packages/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/system.diagnostics.diagnosticsource/4.3.0/system.diagnostics.diagnosticsource.4.3.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/system.diagnostics.tools/4.3.0/system.diagnostics.tools.4.3.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/system.diagnostics.tracing/4.3.0/system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
